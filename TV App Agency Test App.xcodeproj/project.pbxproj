@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		336604371CD37306006D6A42 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336604361CD37306006D6A42 /* SWRevealViewController.m */; };
+		3366043B1CD38D5E006D6A42 /* NavigationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3366043A1CD38D5E006D6A42 /* NavigationTableViewController.swift */; };
+		336604941CD3A23E006D6A42 /* ObjectParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336604931CD3A23E006D6A42 /* ObjectParseManager.swift */; };
 		339CC88A1CD25DF30020C1C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CC8891CD25DF30020C1C6 /* AppDelegate.swift */; };
-		339CC88C1CD25DF30020C1C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CC88B1CD25DF30020C1C6 /* ViewController.swift */; };
+		339CC88C1CD25DF30020C1C6 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CC88B1CD25DF30020C1C6 /* ListViewController.swift */; };
 		339CC88F1CD25DF30020C1C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339CC88D1CD25DF30020C1C6 /* Main.storyboard */; };
 		339CC8921CD25DF30020C1C6 /* TV_App_Agency_Test_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 339CC8901CD25DF30020C1C6 /* TV_App_Agency_Test_App.xcdatamodeld */; };
 		339CC8941CD25DF30020C1C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339CC8931CD25DF30020C1C6 /* Assets.xcassets */; };
 		339CC8971CD25DF30020C1C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339CC8951CD25DF30020C1C6 /* LaunchScreen.storyboard */; };
 		339CC8A21CD25DF30020C1C6 /* TV_App_Agency_Test_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CC8A11CD25DF30020C1C6 /* TV_App_Agency_Test_AppTests.swift */; };
 		339CC8AD1CD25DF30020C1C6 /* TV_App_Agency_Test_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CC8AC1CD25DF30020C1C6 /* TV_App_Agency_Test_AppUITests.swift */; };
+		339CC8C21CD2601A0020C1C6 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CC8C11CD2601A0020C1C6 /* UIColorExtension.swift */; };
+		339CC8CD1CD264420020C1C6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CC8CC1CD264420020C1C6 /* Movie.swift */; };
+		339CC8D41CD266890020C1C6 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CC8D31CD266890020C1C6 /* Const.swift */; };
+		339CC8D81CD2672E0020C1C6 /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CC8D71CD2672E0020C1C6 /* Net.swift */; };
+		339CC8DF1CD291780020C1C6 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CC8DE1CD291780020C1C6 /* MovieTableViewCell.swift */; };
+		339CC9041CD34DAF0020C1C6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339CC9031CD34DAF0020C1C6 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		336604341CD37305006D6A42 /* TV App Agency Test App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TV App Agency Test App-Bridging-Header.h"; sourceTree = "<group>"; };
+		336604351CD37306006D6A42 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		336604361CD37306006D6A42 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3366043A1CD38D5E006D6A42 /* NavigationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationTableViewController.swift; path = ViewControllers/NavigationTableViewController.swift; sourceTree = "<group>"; };
+		336604931CD3A23E006D6A42 /* ObjectParseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectParseManager.swift; path = "Helper Files/ObjectParseManager.swift"; sourceTree = "<group>"; };
 		339CC8861CD25DF30020C1C6 /* TV App Agency Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV App Agency Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		339CC8891CD25DF30020C1C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		339CC88B1CD25DF30020C1C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		339CC88B1CD25DF30020C1C6 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		339CC88E1CD25DF30020C1C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		339CC8911CD25DF30020C1C6 /* TV_App_Agency_Test_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TV_App_Agency_Test_App.xcdatamodel; sourceTree = "<group>"; };
 		339CC8931CD25DF30020C1C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +63,12 @@
 		339CC8A81CD25DF30020C1C6 /* TV App Agency Test AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TV App Agency Test AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		339CC8AC1CD25DF30020C1C6 /* TV_App_Agency_Test_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TV_App_Agency_Test_AppUITests.swift; sourceTree = "<group>"; };
 		339CC8AE1CD25DF30020C1C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339CC8C11CD2601A0020C1C6 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = "Helper Files/UIColorExtension.swift"; sourceTree = "<group>"; };
+		339CC8CC1CD264420020C1C6 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = Model/Movie.swift; sourceTree = "<group>"; };
+		339CC8D31CD266890020C1C6 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Const.swift; path = "Helper Files/Const.swift"; sourceTree = "<group>"; };
+		339CC8D71CD2672E0020C1C6 /* Net.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Net.swift; path = Networking/Net.swift; sourceTree = "<group>"; };
+		339CC8DE1CD291780020C1C6 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieTableViewCell.swift; path = ViewControllers/Cells/MovieTableViewCell.swift; sourceTree = "<group>"; };
+		339CC9031CD34DAF0020C1C6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ViewControllers/DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +119,13 @@
 		339CC8881CD25DF30020C1C6 /* TV App Agency Test App */ = {
 			isa = PBXGroup;
 			children = (
+				339CC8D01CD266430020C1C6 /* Networking */,
+				339CC8CB1CD264280020C1C6 /* Model */,
+				339CC8C01CD25FD60020C1C6 /* Helper Files */,
 				339CC8891CD25DF30020C1C6 /* AppDelegate.swift */,
-				339CC88B1CD25DF30020C1C6 /* ViewController.swift */,
-				339CC88D1CD25DF30020C1C6 /* Main.storyboard */,
+				339CC8D11CD2664C0020C1C6 /* ViewControllers */,
+				339CC8D21CD266560020C1C6 /* Storyboards */,
 				339CC8931CD25DF30020C1C6 /* Assets.xcassets */,
-				339CC8951CD25DF30020C1C6 /* LaunchScreen.storyboard */,
 				339CC8981CD25DF30020C1C6 /* Info.plist */,
 				339CC8901CD25DF30020C1C6 /* TV_App_Agency_Test_App.xcdatamodeld */,
 			);
@@ -126,6 +148,63 @@
 				339CC8AE1CD25DF30020C1C6 /* Info.plist */,
 			);
 			path = "TV App Agency Test AppUITests";
+			sourceTree = "<group>";
+		};
+		339CC8C01CD25FD60020C1C6 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				336604351CD37306006D6A42 /* SWRevealViewController.h */,
+				336604361CD37306006D6A42 /* SWRevealViewController.m */,
+				339CC8C11CD2601A0020C1C6 /* UIColorExtension.swift */,
+				339CC8D31CD266890020C1C6 /* Const.swift */,
+				336604341CD37305006D6A42 /* TV App Agency Test App-Bridging-Header.h */,
+				336604931CD3A23E006D6A42 /* ObjectParseManager.swift */,
+			);
+			name = "Helper Files";
+			sourceTree = "<group>";
+		};
+		339CC8CB1CD264280020C1C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				339CC8CC1CD264420020C1C6 /* Movie.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		339CC8D01CD266430020C1C6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				339CC8D71CD2672E0020C1C6 /* Net.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		339CC8D11CD2664C0020C1C6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				339CC8DD1CD2914C0020C1C6 /* Cells */,
+				339CC88B1CD25DF30020C1C6 /* ListViewController.swift */,
+				339CC9031CD34DAF0020C1C6 /* DetailViewController.swift */,
+				3366043A1CD38D5E006D6A42 /* NavigationTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		339CC8D21CD266560020C1C6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				339CC88D1CD25DF30020C1C6 /* Main.storyboard */,
+				339CC8951CD25DF30020C1C6 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		339CC8DD1CD2914C0020C1C6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				339CC8DE1CD291780020C1C6 /* MovieTableViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +338,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				339CC88C1CD25DF30020C1C6 /* ViewController.swift in Sources */,
+				339CC9041CD34DAF0020C1C6 /* DetailViewController.swift in Sources */,
+				3366043B1CD38D5E006D6A42 /* NavigationTableViewController.swift in Sources */,
+				339CC88C1CD25DF30020C1C6 /* ListViewController.swift in Sources */,
 				339CC8921CD25DF30020C1C6 /* TV_App_Agency_Test_App.xcdatamodeld in Sources */,
 				339CC88A1CD25DF30020C1C6 /* AppDelegate.swift in Sources */,
+				339CC8C21CD2601A0020C1C6 /* UIColorExtension.swift in Sources */,
+				339CC8CD1CD264420020C1C6 /* Movie.swift in Sources */,
+				336604941CD3A23E006D6A42 /* ObjectParseManager.swift in Sources */,
+				339CC8D41CD266890020C1C6 /* Const.swift in Sources */,
+				336604371CD37306006D6A42 /* SWRevealViewController.m in Sources */,
+				339CC8DF1CD291780020C1C6 /* MovieTableViewCell.swift in Sources */,
+				339CC8D81CD2672E0020C1C6 /* Net.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +493,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "TV App Agency Test App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shyambhudia.TV-App-Agency-Test-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TV App Agency Test App/TV App Agency Test App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -416,10 +507,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "TV App Agency Test App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shyambhudia.TV-App-Agency-Test-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TV App Agency Test App/TV App Agency Test App-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -488,6 +581,7 @@
 				339CC8B31CD25DF30020C1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		339CC8B41CD25DF30020C1C6 /* Build configuration list for PBXNativeTarget "TV App Agency Test AppTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +590,7 @@
 				339CC8B61CD25DF30020C1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		339CC8B71CD25DF30020C1C6 /* Build configuration list for PBXNativeTarget "TV App Agency Test AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +599,7 @@
 				339CC8B91CD25DF30020C1C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
